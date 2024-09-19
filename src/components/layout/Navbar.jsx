@@ -41,7 +41,7 @@ const Navbar = () => {
         //     // If search query is empty, navigate back to the home page
         //     navigate('/')
         // }
-    }, [searchQuery, navigate])
+    }, [searchQuery])
 
     return (
         <nav className="app__navbar flex flex-col lg:flex-row font-roboto sticky top-0 w-full z-[70] bg-[#070606]  items-center md:h-[120px] lg:h-[100px] h-[100px]">
