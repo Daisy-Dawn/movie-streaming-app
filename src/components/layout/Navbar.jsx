@@ -44,7 +44,7 @@ const Navbar = () => {
     }, [searchQuery, navigate])
 
     return (
-        <nav className="app__navbar flex flex-col lg:flex-row font-roboto sticky top-0 w-full z-[70] bg-[#070606]  items-center h-[100px]">
+        <nav className="app__navbar flex flex-col lg:flex-row font-roboto sticky top-0 w-full z-[70] bg-[#070606]  items-center md:h-[120px] lg:h-[100px] h-[100px]">
             <div className="app__navbar-logo">
                 <img src={Logo} alt="app__logo" />
             </div>
