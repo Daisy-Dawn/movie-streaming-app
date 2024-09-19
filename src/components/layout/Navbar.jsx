@@ -122,7 +122,7 @@ const Navbar = () => {
                         : toggle && componentMount
                         ? 'slide-in-left'
                         : 'slide-out-left'
-                } items-center justify-center absolute top-0 z-50 w-[65%] md:w-[45%] h-dvh nav shadow-lg transition-all duration-300 gap-8 lg:hidden`}
+                } items-center justify-center absolute top-0 z-50 w-[65%] md:w-[45%] h-dvh left-0 nav shadow-lg transition-all duration-300 gap-8 lg:hidden`}
             >
                 {link1.map((link, index) => (
                     <Link
